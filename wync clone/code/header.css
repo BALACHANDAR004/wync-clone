@@ -1,0 +1,108 @@
+body
+{
+    margin: 0px;
+    font-family: sans-serif;
+    margin-bottom: 1000px;
+
+}
+.header
+{
+    cursor: pointer;
+    background: linear-gradient(180deg,#1c1c1c,#1c1b1b 42.69%,#161616);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.left-header
+{
+    display: flex;
+    width:38%;
+    padding-left: 80px;
+    align-items: center;
+    
+
+}
+.bg
+{
+    height: 50px;
+    max-width: 50px;
+    border-radius: 30px;
+}
+.wync
+{
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+    max-width: 200px;
+
+}
+.middle-header
+{
+    width: 40%;
+    display: flex;
+    flex: 1 1 1;
+    align-items: center;
+    
+}
+.search
+{
+    text-align: center;
+    font-size: 16px;
+    border-color: rgb(97, 96, 96);
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 1px;
+    background: rgba(35,35,35,.4);
+    padding: 11px;
+    width: 280px;
+
+}
+.icon1,.subscription
+{
+    display: inline-block;
+    padding-left: 10px;
+
+}
+.right-header
+{
+    align-items: center;
+    display: flex;
+    flex: 1 1 1 ;
+
+}
+.login,.dot
+{
+    padding-left: 18px;
+}
+
+.header1
+{
+    cursor: pointer;
+    margin-top:70px;
+    width: 100%;
+    background:black;
+    color: grey;
+    padding:15px;
+    position: fixed;
+    z-index: 1;
+
+   
+}
+.all-header
+{
+    display:flex;
+    justify-content: space-around;
+    font-size: 17px;
+    width: 80%;
+    margin-left: 4%;
+}
+.all
+{
+    font-weight: bold;
+    color: white;
+}
